@@ -20,8 +20,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "serve": "node build/src/index.js",
-    "run": "tsc && node build/src/index.js"
+    "serve": "node build/index.js",
+    "start": "tsc && node build/index.js"
   },
   "eslintConfig": {
     "extends": [

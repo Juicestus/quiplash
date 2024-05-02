@@ -12,6 +12,7 @@ app.use(cors());
 app.options("*", cors());
 
 app.get("/createNewGame", routes.createNewGame);
+app.get("/joinGame", routes.joinGame);
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
